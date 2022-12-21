@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" defer></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js" defer></script>
+
+    <title>СТУДИКА</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hero">
+                <button class="menu-button">
+                    <img class="menu-vector" src="img/menu.svg" alt="Menu icon">
+                </button>
+
+                <div class="logo">
+                    <img class="logo-vector" src="img/logo.svg" alt="Studika logo">
+                </div>
+    
+                <div class="city">
+                    <div class="city-icon">
+                        <img class="city-vector" src="img/city.svg" alt="City icon">
+                    </div>
+                    <div class="city-text">Любой регион</div>
+                </div>
+
+                <div class="city-popup is-hidden first-opening">
+                    <div class="city-search">
+                        <input type="text" class="city-search-input" placeholder="Регион, город, населенный пункт">
+                        <button class="cancel-button is-disabled">
+                            <img class="cancel-vector" src="img/close.svg" alt="Cancel icon">
+                        </button>
+                    </div>
+                    <div class="loading"></div>
+                    <ul class="city-selected-list is-disabled"></ul>
+                    <div class="city-list-container" >
+                        <ul class="city-list"></ul>
+                    </div>
+                    <button class="city-save">СОХРАНИТЬ</button>
+                </div>
+                
+                <div class="search">
+                    <div class="search-icon">
+                        <img class="search-vector" src="img/search.svg" alt="Search icon">
+                    </div>
+                    <input type="text" class="search-input" placeholder="Учебное заведение, специальность или профессия">
+                </div>
+
+                <div class="favorites">
+                    <div class="like">
+                        <div class="favorite">
+                            <img src="img/favorite.svg" alt="Favorite icon">
+                        </div>
+                    </div>
+                    <div class="count">1</div>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-text">Екатерина</div>
+                    <img class="profile-icon" src="img/avatar.png" alt="Avatar">
+                </div>
+            </div>
+    
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Вузы
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Колледжи
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Техникумы
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Училища
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Специальности
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Профессии
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Отзывы
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Учебным заведениям
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <p class="menu-text">
+                            Тест на профориентацию
+                        </p>
+                    </li>
+                </ul>
+                <div class="menu-arrow">
+                    <img src="img/arrow.svg" alt="Menu arrow" class="menu-arrow-vector">
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
